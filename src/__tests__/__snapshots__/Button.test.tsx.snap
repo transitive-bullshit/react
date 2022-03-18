@@ -88,6 +88,12 @@ exports[`Button renders consistently 1`] = `
   border-color: rgba(27,31,36,0.15);
 }
 
+@media (forced-colors:active) {
+  .c0:focus {
+    outline: solid 1px transparent;
+  }
+}
+
 <button
   className="c0"
 />
@@ -196,6 +202,12 @@ exports[`Button styles danger button appropriately 1`] = `
   background-color: btn.danger.selectedBg;
   box-shadow: undefined;
   border-color: btn.danger.selectedBorder;
+}
+
+@media (forced-colors:active) {
+  .c0:focus {
+    outline: solid 1px transparent;
+  }
 }
 
 <button
@@ -393,6 +405,12 @@ exports[`Button styles invisible button appropriately 1`] = `
   background-color: btn.selectedBg;
 }
 
+@media (forced-colors:active) {
+  .c0:focus {
+    outline: solid 1px transparent;
+  }
+}
+
 <button
   class="c0"
 >
@@ -510,6 +528,12 @@ exports[`Button styles outline button appropriately 1`] = `
   border-color: btn.outline.selectedBorder;
 }
 
+@media (forced-colors:active) {
+  .c0:focus {
+    outline: solid 1px transparent;
+  }
+}
+
 <button
   class="c0"
 >
@@ -611,6 +635,12 @@ exports[`Button styles primary button appropriately 1`] = `
 .c0[aria-expanded=true] {
   background-color: btn.primary.selectedBg;
   box-shadow: undefined;
+}
+
+@media (forced-colors:active) {
+  .c0:focus {
+    outline: solid 1px transparent;
+  }
 }
 
 <button
